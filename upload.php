@@ -17,5 +17,12 @@ $md5HashFile = md5_file($file);
 
 $sha256HashFile = hash_file($algo, $file);
 
+print("md5HashFile »");
+print("\n");
+print($md5HashFile);
+print("\n");
+print("sha256HashFile »");
+print("\n");
+print($sha256HashFile);
 
 ?>
