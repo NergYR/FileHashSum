@@ -2,16 +2,16 @@
 
 
 
-// $file = $_FILES['file'];
+$file = $_FILES['file'];
 
 
-// $algo = $_POST['algo'];
+$algo = $_POST['algo'];
 
-file_put_contents('exemple.txt', 'Le rapide goupil brun sauta par dessus le chien paresseux.');
+// file_put_contents('exemple.txt', 'Le rapide goupil brun sauta par dessus le chien paresseux.');
 
-$file = 'exemple.txt';
+// $file = 'exemple.txt';
 
-$algo = 'SHA256';
+// $algo = 'SHA256';
 
 $md5HashFile = md5_file($file);
 
