@@ -15,7 +15,7 @@ $algo = 'SHA256';
 
 $md5HashFile = md5_file($file);
 
-$sha256HashFile = hash_file(SHA256, $file);
+$sha256HashFile = hash_file($algo, $file);
 
 
 ?>
